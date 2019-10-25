@@ -20,7 +20,7 @@ public class Raton {
     }
     /**
      * Constructor parametrizado que recibe un string
-     * @param tipo String
+     * @param tipo Variable de tipo String para inicializar el atributo de la clase
      */
     public Raton(String tipo){
         this.tipo=tipo;
