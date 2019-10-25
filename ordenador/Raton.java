@@ -7,6 +7,7 @@ package ordenador;
 
 /**
  *
+ * Clase atributo de Ordenador con atributo string llamado tipo
  * @author xdeantabelisario
  */
 public class Raton {
