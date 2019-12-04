@@ -6,7 +6,7 @@
 package ordenador;
 
 /**
- *
+ * Clase compuesta por las clases CPU, Pantalla y Raton
  * @author xdeantabelisario
  */
 public class Ordenador {
@@ -39,18 +39,42 @@ public class Ordenador {
     public Raton getRaton(){
         return rat;
     }
+    /**
+     * Retorna un objeto tipo Pantalla
+     * @return atributo de la clase
+     */
     public Pantalla getPantalla(){
         return pant;
     }
+    /**
+     * Retorna un objeto tipo CPU
+     * @return atributo de la clase
+     */
     public CPU getCPU(){
         return cpu;
     }
+    /**
+     * Metodo setter que modifica el atributo rat
+     * @param rat Objeto tipo Raton
+     */
+    
     public void setRaton(Raton rat){
         this.rat=rat;
     }
+    
+    /**
+     * Metodo setter que modifica el atributo pant
+     * @param pant Objecto tipo Pantalla
+     */
     public void setPantalla(Pantalla pant){
         this.pant=pant;
     }
+    
+    /**
+     * Metodo setting que modifica el atributo cpu
+     * @param cpu Objeto tipo CPU
+     */
+    
     public void setCPU(CPU cpu){
         this.cpu=cpu;
     }

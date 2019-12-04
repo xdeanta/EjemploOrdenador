@@ -8,7 +8,7 @@ package ordenador;
 import java.util.Scanner;
 
 /**
- *
+ * Clase principal con el metodo main
  * @author xdeantabelisario
  */
 public class main {
